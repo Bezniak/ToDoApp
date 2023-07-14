@@ -1,0 +1,34 @@
+.filter {
+    display: flex;
+    justify-content: center;
+}
+
+.btns {
+    margin-top: 24px;
+}
+
+.filterBtn {
+    margin-right: 5px;
+}
+
+.listItems {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 24px;
+    padding: 6px;
+}
+
+.btn {
+    margin-left: 12px;
+}
+
+.listItems:hover {
+    background: darkgray;
+    border-radius: 6px;
+}
+
+.close {
+    color: blue;
+    text-decoration: line-through;
+}
